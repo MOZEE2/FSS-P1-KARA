@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamique des Délégués en Médecine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: disc inside;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #ddd;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BAH ILS RENTRENT A LA MAISON !! ILS NE <strong>MOGOU</strong> PAS </h1>
+    </header>
+    <main>
+        <section>
+            <h2>TU CROYAIS QUE J'ALLAIS DIRE QUOI ? HINN ?!!<h2>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy;MOZEE 2025 - Dynamique en Médecine</p>
+    </footer>
+</body>
+</html>
