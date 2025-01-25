@@ -82,6 +82,30 @@
         .btn:hover {
             background-color: #45a049;
         }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .whatsapp-button img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
@@ -99,9 +123,9 @@
     <a href="#about">À Propos</a>
 </nav>
 
-<section id="home">
+<section id="Acceuil">
     <h2>Accueil</h2>
-    <p>Explorez notre plateforme pour découvrir une variété de services et de produits adaptés à vos besoins.</p>
+    <p>Explorez notre plateforme pour découvrir une variété de documents à  vos besoins.</p>
     <div class="container">
         <div class="card">
             <img src="https://via.placeholder.com/300" alt="Placeholder">
@@ -124,8 +148,8 @@
     </div>
 </section>
 
-<section id="services">
-    <h2>Nos Services</h2>
+<section id="documents">
+    <h2>Nos documents</h2>
     <div class="container">
         <div class="card">
             <img src="https://via.placeholder.com/300" alt="Placeholder">
@@ -148,8 +172,8 @@
     </div>
 </section>
 
-<section id="products">
-    <h2>Nos Produits</h2>
+<section id="epreuves">
+    <h2>Nos Épreuves</h2>
     <div class="container">
         <div class="card">
             <img src="https://via.placeholder.com/300" alt="Placeholder">
@@ -173,7 +197,7 @@
 </section>
 
 <section id="contact">
-    <h2>Contactez-Nous</h2>
+    <h2>Contactez-Moi</h2>
     <form>
         <label for="name">Nom:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -181,18 +205,22 @@
         <input type="email" id="email" name="email" required><br><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" required></textarea><br><br>
-        <button type="submit" class="btn">Envoyer</button>
+        <button type="submit" class="btn">Envoyer</button><br><br>
+        <h2>Ou par WhatsApp au 71159442</h2>
     </form>
 </section>
 
 <section id="about">
     <h2>À Propos de Nous</h2>
-    <p>Nous sommes dédiés à fournir les meilleurs services et produits pour satisfaire nos clients.</p>
-    <p>Notre équipe est composée de professionnels expérimentés et passionnés par leur travail.</p>
+    <p>Nous sommes dédiés à fournir les meilleurs Documents et épreuves pour satisfaire nos amis.</p>
+    <p>Mon équipe est composée de professionnels expérimentés et passionnés par leur travail.</p>
 </section>
-
+<!-- Bouton WhatsApp -->
+    <a href="https://wa.me/22871159442?text=Bonjour%20je%20besoin%20de%20plus%20de%20document" target="_blank" class="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+    </a>
 <footer>
-    <p>&copy; 2025 LMEDO P1. Tous droits réservés.</p>
+    <p>&copy;MOZEE 2025 LMEDO P1. Tous droits réservés.</p>
 </footer>
 
 </body>
